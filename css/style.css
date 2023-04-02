@@ -1,0 +1,365 @@
+
+
+
+/* navbar */
+
+#navbar {
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#pagelogo {
+    color: #4073de;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.nav-link {
+    color: black;
+    font-weight: 500;
+}
+
+#navbar li a {
+    font-size: 18px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.navbar li a:hover {
+    background-image: linear-gradient(to top, #155ed1 0%, #ba5cff 100%);
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+.navbar a.active {
+    background-image: linear-gradient(to top, #155ed1 0%, #ba5cff 100%);
+    color: white;
+  }
+
+.navbar-nav .nav-link {
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    #navbar li a {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #navbar li a {
+        margin-left: 0px;
+    }
+}
+
+/* main image */
+
+#mainimg {
+   padding-bottom: 10px;
+}
+
+.row>* {
+    padding-right: calc(var(--bs-gutter-x) * .0);
+    padding-left: calc(var(--bs-gutter-x) * .0);
+}
+
+#gredicol-1 {
+    background-image: linear-gradient(to top, #ff8615 0%, #ffaf00 99%, #ffaf00 100%);
+    color: white;
+    padding: 2%;
+    margin-right: 20px;
+    position: relative;
+    top: -100px;
+}
+
+#gredicol-2 {
+    background-image: linear-gradient(to top, #155ed1 0%, #ba5cff 100%);
+    color: white;
+    padding: 2%;
+    margin-right: 20px;
+    position: relative;
+    top: -100px;
+}
+
+#gredicol-3 {
+    background-image: linear-gradient(to top, #ff1c98 0%, #ff3050 100%);
+    color: white;
+    padding: 2%;
+    margin-right: 20px;
+    position: relative;
+    top: -100px;
+}
+
+#gredicol-4 {
+    background-image: linear-gradient(to top, #b61fe0 0%, #fe14e7 99%, #ff14e7 100%);
+    color: white;
+    padding: 2%;
+    margin-right: 20px;
+    position: relative;
+    top: -100px;
+}
+
+#gredicol-1, #gredicol-2, #gredicol-3, #gredicol-4  p {
+    font-size: 18px;
+}
+
+#arrowicon1, #arrowicon2, #arrowicon3, #arrowicon4 {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    #gredicol-1, #gredicol-2, #gredicol-3, #gredicol-4 {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+/* school details */
+
+#school-details1, #school-details2 {
+   padding-bottom: 4%;
+}
+
+#school-read-more-section1 {
+    padding: 4%;
+    background-color: #f7f7f7;
+    margin-right: 2%;
+}
+
+#school-read-more-section1 h3 {
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+#school-read-more-section1 p {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+#school-read-more-section2 {
+    padding: 5%;
+    background-color: #f7f7f7;
+    margin-left: 2%;
+}
+
+#school-read-more-section2 h3 {
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+#school-read-more-section2 p {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+#read-more-button1, #read-more-button2 {
+    background-image: linear-gradient(87deg, #ff8b00 0%, #ff3050 100%);
+    color: white;
+    padding: 15px 40px 15px 40px;
+    border: 0px;
+    border-radius: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    #school-read-more-section1 h3 {
+        font-size: 21px;
+    }
+
+    #school-read-more-section1 p {
+        font-size: 10px;
+    }
+
+    #school-read-more-section2 h3 {
+        font-size: 21px;
+    }
+
+    #school-read-more-section2 p {
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    #school-read-more-section2 {
+        margin-left: 0px;
+    }
+
+    #school-read-more-section1 {
+        margin-right: 0px;
+    }
+
+    #school-read-more-section1 h3 {
+        font-size: 30px;
+    }
+
+    #school-read-more-section1 p {
+        font-size: 20px;
+    }
+
+    #school-read-more-section2 h3 {
+        font-size: 30px;
+    }
+
+    #school-read-more-section2 p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #school-read-more-section1 p {
+        font-size: 13px;
+    }
+
+    #school-read-more-section2 p {
+        font-size: 13px;
+    }
+}
+
+/* swim news */
+
+#swim-news {
+    background-image: url("../images/swim3.png");
+    background-size: cover;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+}
+
+#swim-news-desc {
+    background-image: linear-gradient(to top, #f6058ecf 0%, #ff3351 100%);
+    margin-left: 7%;
+    color: white;
+    padding: 7%;
+}
+
+#news-detail {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:1024px) {
+    
+#swim-news-desc {
+    padding: 2%;
+}
+
+}
+
+#news-button {
+    background-color: white;
+    padding: 15px 40px 15px 40px;
+    border: 0px;
+    border-color: white;
+    border-radius: 0px;
+}
+
+@media only screen and (max-width: 500px) {
+    #swim-news-desc {
+        margin-left: 0%;
+    }
+
+    #swim-news {
+        justify-content: center;
+    }
+}
+
+/* event page */
+
+#event {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#event-col {
+    background-image: linear-gradient(to top, #ff7f00 0%, #ffbb18 99%, #ffbb18 100%);
+    margin-right: 2%;
+    padding: 4%;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    #event-col {
+        margin-right: 0px;
+    }
+}
+
+/* profile section */
+
+.profile-details {
+    background-color: #f3f3f3;
+    padding-top: 55px;
+    padding-bottom: 20px;
+}
+
+#profile1, #profile2, #profile3, #profile4 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#profile-img1, #profile-img2, #profile-img3, #profile-img4 {
+    border: 0px;
+    border-radius: 100px;
+    position: relative;
+    top: 40px;
+    max-width: 120px;
+}
+
+.profile-details h4 {
+    color: #ff6300;
+}
+
+
+/* for ipad */
+
+
+@media only screen and (max-width:820px) {
+    #school-read-more-section1 {
+        text-align: center;
+        padding: 5px;
+    }
+
+    #school-read-more-section2 {
+        text-align: center;
+        padding: 2px;
+    }
+
+    #event-col {
+        text-align: center;
+        padding: 0px;
+    }
+}
+
+/* footer-section */
+
+#footer-address {
+    background-image: linear-gradient(to top, #007bc6 0%, #0099e1 99%, #0099e1 100%);
+    color: white;
+    padding: 40px;
+    margin-right: 20px;
+}
+
+#phone-logo, #insta-logo, #facebook-logo, #twitter-logo, #whatsapp-logo {
+    font-size: 30px;
+}
+
+#footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* copyright-section */
+
+#copy-right {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width:500px) {
+    #footer-address {
+        margin-right: 0px;
+    }
+}
